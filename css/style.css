@@ -16,20 +16,19 @@ footer {
   display: flex;
   flex-direction: column;
   padding-top: 1em;
-  p {
-    font-family: "Poppins";
-    font-style: italic;
-    font-size: 1rem;
-    font-weight: 300;
-  }
 }
+
 .kontakt-info {
   display: flex;
   flex-direction: row;
   gap: 1px;
   align-items: center;
-  font-family: itali;
+  font-family: "Poppins";
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 300;
 }
+
 .kontakt-boks {
   display: flex;
   flex-direction: column;
@@ -52,7 +51,7 @@ footer {
 p {
   font-family: "Poppins";
   font-size: 1rem;
-  font-weight: 200%;
+  font-weight: 350;
   margin-left: 2%;
 }
 /*img {
