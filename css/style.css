@@ -15,27 +15,34 @@ footer {
   background-color: #8993be;
   display: flex;
   flex-direction: column;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .kontakt-info {
   display: flex;
   flex-direction: row;
-  gap: 1px;
+  gap: 10px;
   align-items: center;
-  font-family: "Poppins";
-  font-style: italic;
-  font-size: 1rem;
-  font-weight: 300;
 }
 
 .kontakt-boks {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  row-gap: 15px;
   padding: 30px 50px;
   line-height: 0;
 }
+
+.kontakt-info p {
+  padding: 5px;
+  font-family: "Poppins";
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0;
+}
+
 .kontakt-info img {
   height: 16px;
   width: 16px;
